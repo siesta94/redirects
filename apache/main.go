@@ -35,9 +35,6 @@ func main() {
 		fmt.Println("Error: Can not open such a file")
 	}
 	r := csv.NewReader(csvData)
-	//Generating Apache redirects
-	fmt.Println("Apache redirects:")
-	fmt.Println("-----------------")
 	for {
 		//Read CSV line
 		reader, err := r.Read()
