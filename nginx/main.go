@@ -24,7 +24,7 @@ func main() {
 	fmt.Println("Which separator you want to use?")
 	fmt.Scanln(&separator)
 	fmt.Println("---------------------------------------------------")
-	fmt.Println("Which name of file program ?")
+	fmt.Println("Name of output program ?")
 	fmt.Scanln(&fileName)
 	fmt.Println("---------------------------------------------------")
 	//Creating file for config with input from fileName variable
